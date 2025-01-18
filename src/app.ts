@@ -27,14 +27,14 @@ preguntas();
 
 const consultandoact = async () => {
     rl.question("Indica el usuario por favor: ", async (respuesta) => {
-        const token = "tu token"; 
+        const tokn = "tu token"; 
 
         try {
             const eventos = await fetch(`https://api.github.com/users/${respuesta}/events`, {
                 method: "GET",
                 headers: {
                     "User-Agent": "node.js",
-                    "Authorization": `Bearer ${token}`,
+                    "Authorization": `Bearer ${tokn}`,
                     "Accept": "application/vnd.github.v3+json",
                 },
             });
