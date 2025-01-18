@@ -1,3 +1,5 @@
+# github-action
+Programa de consola para obtener acciones dentro de github
 # Script interactivo en Node.js para consultar eventos de GitHub
 
 Este script utiliza `readline` para crear un menú interactivo y permite consultar eventos de usuario en GitHub mediante la API de GitHub. Los usuarios pueden filtrar eventos de tipo `CreateEvent`.
